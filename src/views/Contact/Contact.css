@@ -1,0 +1,117 @@
+.contact {
+  font-size: 24px;
+  color: rgb(62, 187, 31);
+  text-align: center;
+  margin-top: 50px;
+}
+.contact {
+  background-color: #fff5f7;
+  min-height: 100vh;
+}
+
+
+.contact-title {
+  text-align: center;
+ 
+}
+
+.contact-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.contact-card {
+  width: 400px;
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #f0f0f0;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.contact-img {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  color: #27ae60;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.contact-card p {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+
+.input-box {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1.5px solid #ddd;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.2);
+}
+
+.input-box::placeholder {
+  color: #999;
+}
+
+.send-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.send-btn:hover {
+  background: linear-gradient(135deg, #229954 0%, #1e8449 100%);
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+}
+
+.send-btn:active {
+  transform: scale(0.98);
+}

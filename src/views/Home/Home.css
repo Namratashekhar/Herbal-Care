@@ -1,0 +1,34 @@
+.home {
+  font-size: 24px;
+  color: rgb(62, 187, 31);
+  text-align: center;
+  margin-top: 50px;
+}
+.card{
+ color: rgb(218, 170, 97);
+  padding: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.product-container{
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  margin: 20px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
