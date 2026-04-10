@@ -24,3 +24,14 @@
 .active-menu{
     font-weight: bold;  
 }
+
+.menu-item {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
